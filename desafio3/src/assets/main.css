@@ -1,0 +1,87 @@
+@import './base.css';
+
+#app {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  font-weight: normal;
+}
+#nav {
+  width: 100%;
+}
+#search {
+  border-radius: 25px 0 0 25px !important;
+}
+.iconS{
+  border-radius: 0 50% 50% 0 !important;
+}
+.iconMic {
+  border-radius: 50% !important;
+}
+.divNav{
+  margin: 0 !important;
+  width: auto !important;
+}
+#primerDivNav{
+  margin-left: 10px !important;
+}
+#ultimoDivNav{
+  margin-right: 20px !important;
+}
+#navMain {
+  height: auto;
+  width: 5vw;
+  text-align: center;
+}
+#navMain a{
+  margin-top: 15px;
+  padding-top: 10px;
+  border-radius: 25%;
+}
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+p{
+  font-size: 0.6em;
+}
+#banner {
+  width: 95vw;
+  margin: 0;
+  padding: 0;
+}
+#banner img {
+    width: inherit;
+}
+#datos {
+  display: flex;
+  align-items: center;
+}
+#datos p{
+  color: gray;
+  font-size: 0.8em;
+}
+#botones {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+#botones button {
+  font-size: 1em;
+  border: none;
+  border-radius: 25px;
+  padding: 5px;
+}
+#botones i {
+  padding: 10px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
